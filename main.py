@@ -32,7 +32,7 @@ class OlxApiWrapper:
     def __init__(self) -> None:
         self.session = requests.Session()
     
-    def get_access_token(self):
+    def get_access_token(self) -> None:
         try:
             df: pd.DataFrame = pd.read_pickle('token')
             self.token = df.to_dict()['token']
