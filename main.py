@@ -49,4 +49,4 @@ class OlxApiWrapper:
 
     def token_expired(self) -> bool:
         expiration_date: datetime = datetime.strptime(self.token['expire_date'], '%Y/%d/%m %H:%M:%S')
-        Return True if datetime.now() > expiration_date else False
+        return True if datetime.now() > expiration_date else False
