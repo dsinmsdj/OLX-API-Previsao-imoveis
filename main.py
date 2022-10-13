@@ -8,7 +8,7 @@ class OlxApiWrapper:
 
     CLIENT_NAME = 'GIA Imoveis'
     CLIENT_ID = 200352
-    CLIENT_SECRET = '4hiiQxEiiaTA1diavjDcL3veI0B1dLfouQ3kbKrGNNVYUBBM'
+    CLIENT_SECRET = ''
     SCOPE = 'v2 read write'
     URL = 'https://www.olx.pt'
     GRANTS_TYPES = {'refresh_token': 'refresh_token', 'client_credentials': 'client_credentials'}
